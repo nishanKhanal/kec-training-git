@@ -16,6 +16,8 @@ int main(){
     printf("Enter number_2: ");
     scanf("%d", &number2);
 
+    printf("\n");
+
     switch(choice){
         case 1: 
             result = add(number1, number2);
@@ -32,6 +34,8 @@ int main(){
         default:
             printf("Invalid choice.\n");
         }
+
+    printf("\n");
 
     printf("The result is: %d", result);
 
