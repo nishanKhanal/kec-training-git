@@ -24,7 +24,7 @@ int main(){
             result = subtract(number1, number2);
             break;
         case 3:
-            // TODO: Implement multiplication
+            result = multiply(number1, number2);
             break;
         case 4:
             // TODO: Implement division
