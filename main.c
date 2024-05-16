@@ -29,7 +29,7 @@ int main(){
             result = multiply(number1, number2);
             break;
         case 4:
-            // TODO: Implement division
+            result = divide(number1, number2);
             break;
         default:
             printf("Invalid choice.\n");
