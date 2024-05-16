@@ -21,7 +21,7 @@ int main(){
             result = add(number1, number2);
             break;
         case 2:
-            // TODO: Implement subtraction
+            result = subtract(number1, number2);
             break;
         case 3:
             // TODO: Implement multiplication
