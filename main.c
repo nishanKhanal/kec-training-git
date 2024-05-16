@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "operations.h"
 
 int main(){
     int choice, number1, number2, result;
@@ -17,7 +18,7 @@ int main(){
 
     switch(choice){
         case 1: 
-            // TODO: Implement addition
+            result = add(number1, number2);
             break;
         case 2:
             // TODO: Implement subtraction
